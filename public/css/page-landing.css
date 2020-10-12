@@ -1,0 +1,50 @@
+#page-landing{
+    margin:0;
+    background: linear-gradient(329.54deg, #29B6D1 0%, #00C7C7 100%);
+    min-height: 100vh;
+    text-align: center;
+    display: flex;
+}
+
+#container {
+    margin: auto;
+    width: 90%;
+}
+
+.location, h1, .visit p {
+    height: 16vh;
+}
+
+.visit a {
+    width: 8rem;
+    height: 8rem;
+    background: #ffd666;
+    border: none;
+    border-radius: 3rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Margin auto só funciona de acordo com o proposto, com o display flex no pai. Se não tiver, ele quebra o todo. */
+    margin: auto;
+}
+
+#logo {
+    animation-delay: 50ms;;
+}
+
+.location{
+    animation-delay: 100ms;
+}
+
+main h1 {
+    animation-delay: 150ms;
+}
+
+.visit p {
+    animation-delay: 200ms;
+}
+
+.visit a {
+    animation-delay: 250ms;
+}

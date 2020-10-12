@@ -1,0 +1,17 @@
+:root{
+    font-size: 62.5%;
+}
+
+/* EM vai sempre pegar do elemento superior a ele. REM vai pegar sempre do Root element. */
+
+body, input, button, textarea{
+    font: 400 1.8rem/1 'Nunito', sans-serif;
+    color: white;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+}
